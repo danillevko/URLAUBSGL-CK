@@ -43,8 +43,17 @@
 }
 
 .singin-btn:hover {
-  cursor: pointer;
+  cursor: not-allowed;
   background-color: rgb(214, 214, 214);
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+link:hover {
+  cursor: not-allowed;
 }
 
 .hero {
