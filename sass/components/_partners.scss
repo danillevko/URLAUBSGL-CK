@@ -1,0 +1,47 @@
+.partners {
+    margin-bottom: 37px;
+    
+}
+.partners-title {
+    margin: 0 auto;
+    color: #333333;
+    width: 431px;
+    height: 27px;
+    @extend %mainFont;
+    font-size: 22px;
+   margin-top: 65px;
+   margin-bottom: 35px;
+}
+.partners-list {
+    display: flex;
+    gap: 31px;
+    list-style: none;
+    padding: 0;
+}
+.partners-item {
+    width: 217px;
+    text-align: center;
+}
+.human-photo {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.name {
+    color: #333333;
+    margin: 0 auto;
+    margin-bottom: 13px;
+    @extend %mainFont;
+    font-size: 14px;
+    width: 135px;
+    height: 17px;
+}
+.partner-span {
+    text-align: center;
+    color: #666666;
+    margin: 0 auto;
+    @extend %secondaryFont;
+    font-size: 14px;
+}

@@ -1,0 +1,39 @@
+.header {
+    padding-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;
+}
+.header-wrapper{
+    display: flex;
+    gap: 9px;
+    vertical-align: center;
+}
+.logo {
+    width: 208px;
+    height: 24px;
+    @extend %mainFont;
+    font-size: 20px;
+    color: white;
+}
+.login {
+    width: 46px;
+    height: 17px;
+    @extend %mainFont;
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+    vertical-align: center;
+}
+.singin-btn {
+    width: 93px;
+    height: 39px;
+    border: white 2px;
+    border-radius: 45px;
+    border: none;
+    background-color: white;
+}
+.singin-btn:hover{
+    cursor: pointer;
+    background-color: rgb(214, 214, 214);
+}
