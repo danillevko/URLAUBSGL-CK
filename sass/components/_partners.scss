@@ -45,3 +45,17 @@
     @extend %secondaryFont;
     font-size: 14px;
 }
+@media screen and (max-width: 913px){
+    
+    .partners-list{
+        display: flex;
+        gap: 33px;
+        flex-wrap: wrap;
+    }
+    // .partners-item{
+    //     // width: calc((100% - 10px) / 2);
+    // }
+    .partners-item {
+        height: 217px;
+    }
+}

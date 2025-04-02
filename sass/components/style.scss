@@ -19,3 +19,10 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 913px){
+    .container{
+        width: 470px;
+        margin: 0 auto;
+    }
+}

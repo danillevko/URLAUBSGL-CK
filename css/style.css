@@ -36,15 +36,14 @@
 .singin-btn {
   width: 93px;
   height: 39px;
-  border: white 2px;
+  color: white;
+  border: 1px;
   border-radius: 45px;
-  border: none;
-  background-color: white;
+  background-color: transparent;
 }
 
 .singin-btn:hover {
   cursor: not-allowed;
-  background-color: rgb(214, 214, 214);
 }
 
 .link {
@@ -110,8 +109,6 @@ link:hover {
 }
 
 .partners-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 31px;
   list-style: none;
@@ -149,6 +146,22 @@ link:hover {
   font-size: 14px;
 }
 
+@media screen and (max-width: 913px) {
+  .partners-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 33px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .partners-item {
+    height: 217px;
+  }
+}
+.partners-wrapper{
+  display: flex;
+}
 .footer-btn {
   width: 193px;
   height: 43px;
@@ -156,11 +169,8 @@ link:hover {
   border-radius: 30px;
   color: #FF4E50;
   background-color: white;
-}
-
-.footer-wrapper {
+  display: block;
   margin: 0 auto;
-  margin: 0px 40%;
 }
 
 .logo, .login, .hero-title, .hero-btn, .partners-title, .name {
@@ -187,4 +197,11 @@ link:hover {
 .body {
   margin: 0;
   padding: 0;
-}/*# sourceMappingURL=style.css.map */
+}
+
+@media screen and (max-width: 913px) {
+  .container {
+    width: 470px;
+    margin: 0 auto;
+  }
+}
