@@ -36,14 +36,15 @@
 .singin-btn {
   width: 93px;
   height: 39px;
-  color: white;
-  border: 1px;
+  border: white 2px;
   border-radius: 45px;
-  background-color: transparent;
+  border: none;
+  background-color: white;
 }
 
 .singin-btn:hover {
   cursor: not-allowed;
+  background-color: rgb(214, 214, 214);
 }
 
 .link {
@@ -55,6 +56,20 @@ link:hover {
   cursor: not-allowed;
 }
 
+@media screen and (max-width: 768px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: none;
+        -ms-flex-pack: none;
+            justify-content: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
 .hero {
   padding-bottom: 233px;
   text-align: center;
@@ -109,6 +124,8 @@ link:hover {
 }
 
 .partners-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 31px;
   list-style: none;
@@ -159,9 +176,6 @@ link:hover {
     height: 217px;
   }
 }
-.partners-wrapper{
-  display: flex;
-}
 .footer-btn {
   width: 193px;
   height: 43px;
@@ -169,8 +183,11 @@ link:hover {
   border-radius: 30px;
   color: #FF4E50;
   background-color: white;
-  display: block;
+}
+
+.footer-wrapper {
   margin: 0 auto;
+  margin: 0px 40%;
 }
 
 .logo, .login, .hero-title, .hero-btn, .partners-title, .name {
@@ -204,4 +221,4 @@ link:hover {
     width: 470px;
     margin: 0 auto;
   }
-}
+}/*# sourceMappingURL=style.css.map */
